@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>🏋️ Fitness Dashboard</h1>
+
+    <!-- Search Section -->
+    <div class="search-box">
+      <input type="text" id="exerciseInput" placeholder="Search exercise...">
+      <button onclick="getExercise()">Search</button>
+    </div>
+
+    <!-- Search Result -->
+    <div id="exerciseResult" class="exercise-result"></div>
+
+    <h2>💡 Popular Exercises</h2>
+    <div id="defaultExercises" class="exercise-grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
